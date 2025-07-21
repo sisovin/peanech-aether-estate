@@ -1,73 +1,132 @@
-# Welcome to your Lovable project
+# Peanech Aether Estate
 
-## Project info
+A full-stack, mobile-first real estate platform designed with a futuristic aesthetic and robust admin/data management capabilities.
 
-**URL**: https://lovable.dev/projects/78ca75e6-4afa-4207-99da-e729ea82463a
+---
 
-## How can I edit this code?
+## 🚀 Overview
 
-There are several ways of editing your application.
+Peanech Aether Estate is a modern web application for real estate discovery, booking, and agent management. It combines AI-powered search, real-time analytics, rich admin features, and a sleek, responsive design system.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/78ca75e6-4afa-4207-99da-e729ea82463a) and start prompting.
+## 🏗️ Step 1: Core Layout & Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Topbar**  
+  - Displays contact information and social media icons for quick access.
+- **Header**  
+  - Features logo, navigation menu, dark mode toggle, and authentication trigger.
+- **Hero Section**  
+  - Futuristic look with animated gradients for a strong first impression.
+- **Responsive Design**  
+  - Built using Tailwind CSS, following a mobile-first approach for optimal device compatibility.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔧 Step 2: Build Core Functional Sections
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Feature Highlights**  
+  - AI-powered property search, real-time market analytics, and refined mobile UX.
+- **Tech Stack Display**  
+  - Visual presentation of backend/frontend technologies (e.g., PHP 8+, Tailwind, React).
+- **Properties Section**  
+  - Featured listings with integrated booking functionality.
+- **Agents Section**  
+  - Agent profiles, bios, and direct contact forms.
+- **Marketing Section**  
+  - Newsletter signup with email validation.
+- **Pricing Plans**  
+  - Three-tier subscription offers with clear call-to-actions.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🌀 Step 3: Add Interactive Experience
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Dark Mode Toggle**  
+  - Theme switching with localStorage persistence.
+- **Smooth Transitions**  
+  - Framer Motion animations for page and component transitions.
+- **Mobile Navigation**  
+  - Collapsible menu for small screen usability.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🔐 Step 4: Implement Authentication & User Roles
 
-**Edit a file directly in GitHub**
+- **User Roles & Access Control**  
+  - Roles: Visitor, Agent, Admin, Super Admin.
+  - Protected route access based on role.
+- **Login/Register Modal**  
+  - Modal forms with validation and role assignment.
+- **Demo Accounts**  
+  - Pre-filled credentials for easy testing and demos.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🖥️ Step 5: Admin Dashboard for Data Entry
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Role-Based Access**  
+  - Admins and Super Admins have dashboard access.
+- **Data Entry Modules**  
+  - Modular forms for managing:
+    - Property listings
+    - Agent information
+    - Subscriptions
+    - Marketing materials
+- **CRUD Operations**  
+  - Secure create, read, update, delete actions via API hooks.
+- **Audit & Logs (Optional)**  
+  - Track changes and user activity for administrative oversight.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🎨 Step 6: Polish Design System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Styling Themes**  
+  - Gradients, glow effects, and futuristic typography.
+- **UI Consistency**  
+  - Clean card layouts, consistent spacing, professional color palette.
+- **Interactive States**  
+  - UX is enhanced with hover animations, transitions, and visual feedback.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/78ca75e6-4afa-4207-99da-e729ea82463a) and click on Share -> Publish.
+## 🛠️ Tech Stack
 
-## Can I connect a custom domain to my Lovable project?
+- **Frontend:** React, Tailwind CSS, Framer Motion
+- **Backend:** PHP 8+, RESTful APIs
+- **Authentication:** Role-based access, JWT tokens
+- **Other:** Email newsletter integration, real-time analytics
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📦 Getting Started
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. **Clone the repo**  
+   `git clone https://github.com/sisovin/peanech-aether-estate.git`
+2. **Install dependencies**  
+   `npm install`
+3. **Run locally**  
+   `npm run dev`
+4. **Configure backend**  
+   Ensure PHP 8+ and required APIs are set up.
+
+---
+
+## 🙌 Contributing
+
+Pull requests, issues, and suggestions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📄 License
+
+MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## ✨ Roadmap
+
+See [issues](https://github.com/sisovin/peanech-aether-estate/issues) for upcoming features, bug fixes, and future plans.
+
+---
